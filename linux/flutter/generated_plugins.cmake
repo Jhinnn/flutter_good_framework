@@ -4,6 +4,7 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   dynamic_color
+  modal_progress_hud_nsn
   screen_retriever
   url_launcher_linux
   window_manager

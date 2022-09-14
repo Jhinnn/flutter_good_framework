@@ -59,7 +59,7 @@ class Routes {
   static const flutterPainter = '/flutter_painter';
   static const arrowPath = '/arrow_path';
 
-  //---------------------4.drawing----------------------
+  //---------------------6.picker----------------------
   static const flieSystemPicker = '/flie_system_picker';
   static const smartSelect = '/smart_select';
   static const flexColorPicker = '/flex_color_picker';
@@ -72,4 +72,28 @@ class Routes {
   static const daynightTimepicker = '/day_night_time_picker';
   static const emojiPickerFlutter = '/emoji_picker_flutter';
   static const flutterDatetimePicker = '/flutter_datetime_picker';
+
+
+  //---------------------6.progress----------------------
+  static const percentIndicator = '/percent_indicator';
+  static const snProgressDialog = '/sn_progress_dialog';
+  static const cupertinoStepper = '/cupertino_stepper';
+  static const liquidProgressIndicator = '/liquid_progress_indicator';
+  static const modalProgressHudNsn = '/modal_progress_hud_nsn';
+  static const sleekCircularSlider = '/sleek_circular_slider';
+  static const flutterAnimationProgressBar = '/flutter_animation_progress_bar';
+
+  //---------------------7.slider----------------------
+  static const introSlider = '/intro_slider';
+  static const lazyLoadScrollview = '/lazy_load_scrollview';
+  static const verticalScrollableTabview = '/vertical_scrollable_tabview';
+  static const fadingEdgeScrollview = '/fading_edge_scrollview';
+  static const flutterScrollToTop = '/flutter_scroll_to_top';
+  static const extendedNestedScrollView = '/extended_nested_scroll_view';
+
+  //---------------------7.segment----------------------
+  static const flutterAdvancedSegment = '/flutter_advanced_segment';
+  static const animatedSegment = '/animated_segment';
+  static const animatedSegmentedTabControl = '/animated_segmented_tab_control';
+ 
 }

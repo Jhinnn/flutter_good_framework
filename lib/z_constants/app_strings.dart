@@ -28,7 +28,7 @@ class AppStrings {
     '手势交互(Gesture)',
     '网络(Networking)',
     '选择器(Picker)',
-    '弹出视图(Popup View)',
+    // '弹出视图(Popup View)',
     '进度条(Progress)',
     '滚动视图(ScrollView)',
     '分段选择(Segment)',
@@ -264,6 +264,12 @@ class AppStrings {
           154,
           'https://pub.dev/packages/flutter_animated_dialog',
           'https://github.com/JackJonson/flutter_animated_dialog'),
+      PluginsModel(
+          'flutter_speed_dial',
+          '6.0.0',
+          788,
+          'https://pub.dev/packages/flutter_speed_dial',
+          'https://github.com/darioielardi/flutter_speed_dial.git'),
     ],
     [
       PluginsModel(
@@ -363,12 +369,6 @@ class AppStrings {
           'https://pub.dev/packages/percent_indicator',
           'https://github.com/diegoveloper/flutter_percent_indicator.git'),
       PluginsModel(
-          'flutter_speed_dial',
-          '6.0.0',
-          788,
-          'https://pub.dev/packages/flutter_speed_dial',
-          'https://github.com/darioielardi/flutter_speed_dial.git'),
-      PluginsModel(
           'sn_progress_dialog',
           '1.0.8',
           125,
@@ -407,6 +407,12 @@ class AppStrings {
     ],
     [
       PluginsModel(
+          'intro_slider',
+          '3.0.9',
+          874,
+          'https://pub.dev/packages/intro_slider',
+          'https://github.com/duytq94/flutter-intro-slider.git'),
+      PluginsModel(
           'lazy_load_scrollview',
           '1.3.0',
           319,
@@ -444,12 +450,12 @@ class AppStrings {
           67,
           'https://pub.dev/packages/flutter_advanced_segment',
           'https://github.com/alex-melnyk/flutter_advanced_segment'),
-      PluginsModel(
-          'flutter_segment',
-          '3.9.0',
-          53,
-          'https://pub.dev/packages/flutter_segment/example',
-          'https://github.com/la-haus/flutter-library-segment'),
+      // PluginsModel(
+      //     'flutter_segment',
+      //     '3.9.0',
+      //     53,
+      //     'https://pub.dev/packages/flutter_segment/example',
+      //     'https://github.com/la-haus/flutter-library-segment'),
       PluginsModel(
           'animated_segment',
           '0.0.4',
@@ -464,12 +470,7 @@ class AppStrings {
           'https://github.com/LanarsInc/animated-segmented-tab-control'),
     ],
     [
-      PluginsModel(
-          'intro_slider',
-          '3.0.9',
-          874,
-          'https://pub.dev/packages/intro_slider',
-          'https://github.com/duytq94/flutter-intro-slider.git'),
+      
       PluginsModel(
           'flutter_onboarding_slider',
           '1.0.7',

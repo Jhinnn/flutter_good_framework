@@ -9,11 +9,17 @@ import 'package:good_framework/a_plugins/picker/flutter_material_pickers/flutter
 import 'package:good_framework/a_plugins/picker/flutter_picker/flutter_picker.dart';
 import 'package:good_framework/a_plugins/picker/smart_select/smart_select.dart';
 import 'package:good_framework/a_plugins/picker/wechat_asserts_picker/wechat_asserts_picker.dart';
+import 'package:good_framework/a_plugins/progress/flutter_animation_progress_bar.dart';
+import 'package:good_framework/a_plugins/progress/sn_progress_dialog.dart';
+import 'package:good_framework/a_plugins/scrollview/flutter_scroll_to_top/flutter_scroll_to_top.dart';
+import 'package:good_framework/a_plugins/scrollview/lazy_load_scrollview.dart';
+import 'package:good_framework/a_plugins/scrollview/vertical_scrollable_tabview/vertical_scrollable_tabview.dart';
 import 'package:good_framework/z_constants/app_colors.dart';
 import 'package:good_framework/z_constants/app_fonts.dart';
 import 'package:good_framework/z_provider/base_index.dart';
 import 'package:logging/logging.dart';
 import 'package:lottie/lottie.dart';
+import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 import 'package:window_manager/window_manager.dart';
 import 'package:provider/provider.dart';
 import 'a_plugins/animations/animate_do/animate_do.dart';
@@ -65,6 +71,17 @@ import 'a_plugins/picker/day_night_time_picker.dart';
 import 'a_plugins/picker/filesystem_picker/flie_system_picker.dart';
 import 'a_plugins/picker/flex_color_picker/flex_color_picker.dart';
 import 'a_plugins/picker/progressive_time_picker/progressive_time_picker.dart';
+import 'a_plugins/progress/cupertino_stepper.dart';
+import 'a_plugins/progress/liquid_progress_indicator/liquid_progress_indicator.dart';
+import 'a_plugins/progress/modal_progress_hud_nsn.dart';
+import 'a_plugins/progress/percent_indicator.dart';
+import 'a_plugins/progress/sleek_circular_slider/ui/sleek_circular_slider_demo.dart';
+import 'a_plugins/scrollview/extended_nested_scroll_view.dart';
+import 'a_plugins/scrollview/fading_edge_scrollview/fading_edge_scrollview.dart';
+import 'a_plugins/scrollview/intro_slider/intro_slider_demo.dart';
+import 'a_plugins/segment/animated_segment.dart';
+import 'a_plugins/segment/animated_segmented_tab_control.dart';
+import 'a_plugins/segment/flutter_advanced_segment.dart';
 import 'z_constants/app_routes.dart';
 import 'z_main/home.dart';
 
@@ -215,6 +232,41 @@ class MyApp extends StatelessWidget {
           Routes.flutterPicker: (_) => const FlutterPickerDemo(),
           Routes.progressiveTimePicker: (_) => const ProgressiveTimePicker(),
           Routes.flutterDatetimePicker: (_) => const DatePickerTimelineDemo(),
+
+          //progress
+          Routes.percentIndicator: (_) => const ProgressIndicatorDemo(),
+          Routes.snProgressDialog: (_) => const SnProgressDialogDemo(),
+          Routes.cupertinoStepper: (_) => const CupertinoStepperDemo(),
+          Routes.liquidProgressIndicator: (_) =>
+              const LiquidProgressIndicatorDemo(),
+          Routes.modalProgressHudNsn: (_) => const ModelProgressHudNsnDemo(),
+          Routes.sleekCircularSlider: (_) => SleekCircularSliderDemo(
+                viewModel: ExampleViewModel(
+                    appearance: const CircularSliderAppearance(),
+                    pageColors: [Colors.white, Colors.black],
+                    max: 100,
+                    min: 20,
+                    value: 50),
+              ),
+          Routes.flutterAnimationProgressBar: (_) =>
+              const FLutterAnimationProgressBarDemo(),
+          //scrollview
+          Routes.introSlider: (_) => const IntroSliderDemo(),
+          Routes.lazyLoadScrollview: (_) => const LazyLaodScrollViewDemo(),
+          Routes.verticalScrollableTabview: (_) =>
+              const VerticalScrollableTabviewDemo(),
+          Routes.fadingEdgeScrollview: (_) => const FadingEdgeScrollViewDemo(),
+          Routes.flutterScrollToTop: (_) => const FlutterScrollToTopDemo(),
+          Routes.extendedNestedScrollView: (_) =>
+              const ExtendedNestedScrollViewDemo(),
+
+          //scrollview
+          Routes.animatedSegment: (_) => const AnimatedSegmentDemo(),
+          Routes.flutterAdvancedSegment: (_) =>
+              const FlutterAdvancedSegmentDemo(),
+          Routes.animatedSegmentedTabControl: (_) =>
+              const AnimatedSegmentedTabControllerDemo(),
+         
         },
         home: const LRHomePage());
   }
