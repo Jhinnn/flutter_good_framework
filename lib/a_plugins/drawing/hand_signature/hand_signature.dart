@@ -18,6 +18,8 @@ ValueNotifier<ByteData?> rawImage = ValueNotifier<ByteData?>(null);
 ValueNotifier<ByteData?> rawImageFit = ValueNotifier<ByteData?>(null);
 
 class HandSignatureDemo extends StatelessWidget {
+  const HandSignatureDemo({super.key});
+
   bool get scrollTest => false;
 
   // This widget is the root of your application.

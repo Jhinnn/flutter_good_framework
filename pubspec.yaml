@@ -129,42 +129,42 @@ dependencies:
   animated_segment: ^0.0.4
   animated_segmented_tab_control: ^1.0.1
 
-  # flutter_onboarding_slider: ^1.0.7
-  # syncfusion_flutter_sliders: ^20.2.40
-  # flutter_slider_drawer: ^2.1.1
-  # introduction_slider: ^1.0.0
-  # another_xlider: ^1.1.2
-  # vertical_weight_slider: ^2.4.0
-  # slide_to_confirm: ^1.1.0
+  flutter_onboarding_slider: ^1.0.7
+  syncfusion_flutter_sliders: ^20.2.40
+  flutter_slider_drawer: ^2.1.1
+  introduction_slider: ^1.0.0
+  another_xlider: ^1.1.2
+  vertical_weight_slider: ^2.4.0
+  slide_to_confirm: ^1.1.0
 
-  # flutter_switch: ^0.3.2
-  # toggle_switch: ^2.0.1
-  # flutter_advanced_switch: ^3.0.1
-  # list_tile_switch: ^1.0.0
-  # animated_theme_switcher: ^2.0.6
-  # font_awesome_flutter: ^10.1.0
-  # animated_toggle_switch: ^0.5.2
+  flutter_switch: ^0.3.2
+  toggle_switch: ^2.0.1
+  flutter_advanced_switch: ^3.0.1
+  list_tile_switch: ^1.0.0
+  animated_theme_switcher: ^2.0.6
+  font_awesome_flutter: ^10.1.0
+  animated_toggle_switch: ^0.5.2
 
-  # grouped_list: ^5.1.2
-  # inview_notifier_list: ^3.0.0
-  # group_list_view: ^1.1.1
-  # searchable_listview: ^2.0.0
-  # indexed_list_view: ^2.0.2
-  # flutter_staggered_animations: ^1.0.0
-  # # azlistview: ^2.0.0
-  # data_tables: ^1.4.0
-  # data_table_2: ^2.3.5
-  # infinite_scroll_pagination: ^3.2.0
-  # custom_refresh_indicator: ^1.2.1
-  # filter_list: ^1.0.2
-  # sticky_grouped_list: ^3.1.0
-  # accordion: ^2.5.1
-  # scrollable_positioned_list: ^0.3.2
-  # draggable_scrollbar: ^0.1.0
-  # flutter_wall_layout: ^2.1.1
-  # flutter_layout_grid: ^2.0.1
-  # responsive_table: ^0.2.0+2
-  # scroll_to_index: ^3.0.1
+  grouped_list: ^5.1.2
+  inview_notifier_list: ^3.0.0
+  group_list_view: ^1.1.1
+  searchable_listview: ^2.0.0
+  indexed_list_view: ^2.0.2
+  flutter_staggered_animations: ^1.0.0
+  # azlistview: ^2.0.0
+  data_tables: ^1.4.0
+  data_table_2: ^2.3.5
+  infinite_scroll_pagination: ^3.2.0
+  custom_refresh_indicator: ^1.2.1
+  filter_list: ^1.0.2
+  sticky_grouped_list: ^3.1.0
+  accordion: ^2.5.1
+  scrollable_positioned_list: ^0.3.2
+  draggable_scrollbar: ^0.1.0
+  flutter_wall_layout: ^2.1.1
+  flutter_layout_grid: ^2.0.1
+  responsive_table: ^0.2.0+2
+  scroll_to_index: ^3.0.1
 
   
   cached_network_image: ^3.2.1
@@ -176,6 +176,9 @@ dependencies:
     path: ../lr_plugins/vertical_scrollable_tabview
   flutter_colorpicker: ^1.0.3
   phosphor_flutter: ^1.4.0
+  common_utils: ^2.0.0
+  # 汉字转拼音
+  lpinyin: ^2.0.0
 
 dev_dependencies:
   flutter_test:

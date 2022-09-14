@@ -73,7 +73,6 @@ class Routes {
   static const emojiPickerFlutter = '/emoji_picker_flutter';
   static const flutterDatetimePicker = '/flutter_datetime_picker';
 
-
   //---------------------6.progress----------------------
   static const percentIndicator = '/percent_indicator';
   static const snProgressDialog = '/sn_progress_dialog';
@@ -95,5 +94,44 @@ class Routes {
   static const flutterAdvancedSegment = '/flutter_advanced_segment';
   static const animatedSegment = '/animated_segment';
   static const animatedSegmentedTabControl = '/animated_segmented_tab_control';
- 
+
+
+  //---------------------8.slider----------------------
+  static const flutterOnboardingSlider = '/flutter_onboarding_slider';
+  static const flutterSliderDrawer = '/flutter_slider_drawer';
+  static const slideToConfirm = '/slide_to_confirm';
+  static const anotherXlider = '/another_xlider';
+  static const verticalWeightSlider = '/vertical_weight_slider';
+
+  //---------------------9.switch----------------------
+  static const flutterSwitch = '/flutter_switch';
+  static const toggleSwitch = '/toggle_switch';
+  static const animatedToggleSwitch = '/animated_toggle_switch';
+  static const flutterAdvancedSwitch = '/flutter_advanced_switch';
+  static const listTileSwitch = '/list_tile_switch';
+
+
+  //---------------------10.listview----------------------
+  static const accordion = '/accordion';
+  static const azlistview = '/azlistview';
+  static const customRefreshIndicator = '/custom_refresh_indicator';
+  static const dataTables = '/data_tables';
+  static const dataTables2 = '/data_tables2';
+  static const draggableScrollbar = '/draggable_scrollbar';
+  static const filterList = '/filter_list';
+  static const flutterLayoutGrid = '/flutter_layout_grid';
+  static const flutterStaggeredAnimations = '/flutter_staggered_animations';
+  static const flutterWallLayout = '/flutter_wall_layout';
+  static const groupListView = '/group_list_view';
+  static const groupedList = '/grouped_list';
+  static const indexedListView = '/indexed_list_view';
+  static const infiniteScrollPagination = '/infinite_scroll_pagination';
+  static const inviewNotifierList = '/inview_notifier_list';
+  static const responsiveTable = '/responsive_table';
+  static const scrollablePositionedList = '/scrollable_positioned_list';
+  static const searchableListview = '/searchable_listview';
+  static const stickyGroupedList = '/sticky_grouped_list';
+
+
+  
 }

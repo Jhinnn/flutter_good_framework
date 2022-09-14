@@ -450,12 +450,7 @@ class AppStrings {
           67,
           'https://pub.dev/packages/flutter_advanced_segment',
           'https://github.com/alex-melnyk/flutter_advanced_segment'),
-      // PluginsModel(
-      //     'flutter_segment',
-      //     '3.9.0',
-      //     53,
-      //     'https://pub.dev/packages/flutter_segment/example',
-      //     'https://github.com/la-haus/flutter-library-segment'),
+     
       PluginsModel(
           'animated_segment',
           '0.0.4',
@@ -471,24 +466,24 @@ class AppStrings {
     ],
     [
       
-      PluginsModel(
-          'flutter_onboarding_slider',
-          '1.0.7',
-          67,
-          'https://pub.dev/packages/flutter_onboarding_slider',
-          'https://github.com/appinioGmbH/flutter_packages.git'),
+      // PluginsModel(
+      //     'flutter_onboarding_slider',
+      //     '1.0.7',
+      //     67,
+      //     'https://pub.dev/packages/flutter_onboarding_slider',
+      //     'https://github.com/appinioGmbH/flutter_packages.git'),
       PluginsModel(
           'flutter_slider_drawer',
           '2.1.1',
           279,
           'https://pub.dev/packages/flutter_slider_drawer',
           'https://github.com/NikhilVadoliya/Flutter_slider_drawer.git'),
-      PluginsModel(
-          'slide_to_confirm',
-          '1.1.0',
-          112,
-          'https://pub.dev/packages/slide_to_confirm',
-          'https://github.com/Friiiis/slide_to_confirm.git'),
+      // PluginsModel(
+      //     'slide_to_confirm',
+      //     '1.1.0',
+      //     112,
+      //     'https://pub.dev/packages/slide_to_confirm',
+      //     'https://github.com/Friiiis/slide_to_confirm.git'),
       PluginsModel(
           'another_xlider',
           '1.1.2',
@@ -533,12 +528,7 @@ class AppStrings {
           58,
           'https://pub.dev/packages/list_tile_switch',
           'https://github.com/firatcetiner/list_tile_switch.git'),
-      PluginsModel(
-          'animated_theme_switcher',
-          '2.0.6',
-          288,
-          'https://pub.dev/packages/animated_theme_switcher',
-          'https://github.com/kherel/animated_theme_switcher.git'),
+    
     ],
     [
       PluginsModel(
